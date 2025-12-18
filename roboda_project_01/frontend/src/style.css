@@ -9,3 +9,64 @@ body {
     font-family: 'Quicksand', sans-serif;
     background-color: rgb(22, 22, 22);
 }
+/* navigation seaction */
+.wb-header-containers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2em 2em 2em 2em;
+    padding: 1.2em 36em;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    gap: 15em;
+    padding: 1em 1em;
+}
+.navbar ul li a:hover {
+    color: #5AC5A1;
+    font-weight: 800;
+    transition: 150ms ease-in
+}
+.login-button {
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-button:hover {
+    background-color: #5AC5A1;
+    border: 2px solid #C4EADE;
+    transition: 150ms ease-in;
+}
+.login-button a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #5AC5A1;
+    font-weight: 600;
+    font-size: 16px
+}
+.login-button a:hover {
+    color: white;
+    font-size: 19px;
+    font-weight: 900;
+    transition: 50ms ease-out;
+}
+.roboda-logo {
+    background-image: url(/Full_Stack_Developments/all_contents/logos/roboda_light.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 94px;
+    height: 64px;
+}
+
+
+
