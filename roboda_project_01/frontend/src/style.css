@@ -68,5 +68,13 @@ body {
     height: 64px;
 }
 
+/* HERO SECTION */
+.wb-hero-containers {
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 2em 2em 2em 2em;
+    padding: 1.2em 36em;
+}
+
 
 
