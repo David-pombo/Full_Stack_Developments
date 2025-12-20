@@ -10,13 +10,13 @@ body {
 }
 header.wb-header {
     padding: 1em 1em;
-    margin: 1em 25em;
+    margin: 1em 38em;
 }
 .wb-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #F3F0EC;
+    background-color: #f3f0ec4f;
     border-radius: 15px;
 }
 
@@ -92,4 +92,13 @@ header.wb-header {
 .wb-dolphin-brand img:hover {
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
+}
+/* Headline section style */
+.wb-hd-contents {
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #166D8F;
+    text-align: center;
+
 }
