@@ -9,12 +9,9 @@ body {
     background-color: #D8D4CC;
 }
 
-.wb-navbar-dolphin {
-    border: 2px solid black;
-    margin: 1em 22em;
-}
 
 .wb-dolphin-brand img {
     width: 100px;
     height: 40px;
+    display: flex;
 }
