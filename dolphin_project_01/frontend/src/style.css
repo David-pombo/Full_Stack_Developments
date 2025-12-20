@@ -9,9 +9,54 @@ body {
     background-color: #D8D4CC;
 }
 
+.wb-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .wb-dolphin-brand img {
-    width: 100px;
+    width: 120px;
     height: 40px;
     display: flex;
+}
+.wb-navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.wb-navbar-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.wb-navbar-links ul li a {
+    text-decoration: none;
+    color: #140F60;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.wb-subscribe-spaces {
+    padding: 0em 1em;
+    gap: 3em;
+}
+.wb-subscribe-spaces {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.wb-subscribe-spaces a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #140F60;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.wb-btn-subscribe {
+
 }
