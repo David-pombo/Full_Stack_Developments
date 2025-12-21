@@ -13,12 +13,9 @@ header.wb-header {
     margin: 1em 38em;
 }
 header.wb-header {
-    z-index: 3;
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    z-index: 999;
+    position:static;
+    top: 2;
 }
 .wb-header {
     display: flex;
