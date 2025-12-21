@@ -43,7 +43,7 @@ header.wb-header {
 }
 .wb-navbar-links ul li a {
     text-decoration: none;
-    color: #140F60;
+    color: #414141;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -74,11 +74,10 @@ header.wb-header {
     cursor: pointer;
 }
 .wb-navbar-links a:hover{
-    color: #166D8F;
+    color: #2ba4d4;
     font-weight: 700;
-    font-size: 8px;
-    transition: 8s ease-in-out;
-    transform: translateY(8em);
+    font-size: 16px;
+    transition: 8s ease-out;
     text-decoration: underline;
 }
 .wb-subscribe-spaces a:hover{
@@ -111,5 +110,30 @@ header.wb-header {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: #3a3a3a;
-    text-align: center
+    text-align: center;
+    padding: 1em 68em;
+}
+.wb-hd-media-networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 1em 1em;
+}
+.wb-hd-media-networks a {
+    text-decoration: none;
+
+}
+.wb-hd-media-networks a:hover {
+    transform: scale(2.1);
+    transition: all 0.2s ease-in-out;
+    background-color: #cbcdce3a;
+}
+.wb-headlines-containers {
+    margin: 8em -1em;
+    padding: 1em 1em;
+}
+.wb-headlines-containers {
+    bottom: 3em 1em;
+
 }
