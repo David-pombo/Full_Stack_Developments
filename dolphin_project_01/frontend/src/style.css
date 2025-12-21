@@ -145,57 +145,42 @@ header.wb-header {
     align-items: center;
     gap: 1em;
     padding: 1em 1em;
+    background-color: #f19f8b;
 }
 
 
 .wb-parent-grid-layout {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap: 8px;
-}
-.grid-card-1 {
-    grid-row: span 2 / span 2;
-    border: 2px solid black;
-    background-color: #bacc87;
-    border-radius: 15px
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    background-color: #9fd685;
 }
 .grid-card-2 {
     grid-column: span 3 / span 3;
-    grid-row: span 2 / span 2;
-    border: 2px solid black;
-    background-color: #dfa36c;
-    border-radius: 15px
+    width: 45em;
+    height: 10em;
 }
 .grid-card-3 {
     grid-column: span 3 / span 3;
-    grid-row: span 2 / span 2;
-    grid-row-start: 3;
-    border: 2px solid black;
-    background-color: #63c6ec;
-    border-radius: 15px
+    grid-row-start: 2;
 }
 .grid-card-4 {
-    grid-column: span 2 / span 2;
     grid-column-start: 4;
-    grid-row-start: 3;
-    background-color: #d580dd;
-    border-radius: 15px;
-    border: 2px solid black;
+    grid-row-start: 2;
 }
 .grid-card-5 {
-    grid-row: span 2 / span 2;
-    grid-column-start: 5;
-    border: 2px solid black;
-    background-color: #8bbd6e;
-    border-radius: 15px
+    
+    grid-row-start: 3;
 }
 .grid-card-6 {
     grid-column: span 3 / span 3;
-    grid-row: span 2 / span 2;
-    grid-row-start: 5;
-    border: 2px solid black;
-    background-color: #5b9e88;
-    border-radius: 15px
+    grid-row-start: 3;
+}
 
+
+
+.grid-card-1, .grid-card-2, .grid-card-3, .grid-card-4, .grid-card-5, .grid-card-6 {
+    border: 2px solid black;
+    border-radius: 15px;
 }
