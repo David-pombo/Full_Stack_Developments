@@ -19,6 +19,11 @@ header.wb-header {
     background-color: #f3f0ec4f;
     border-radius: 15px;
 }
+.wb-header:hover {
+    background-color: #fcfeff8e;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 2.5px 0.5px #dadada60;
+}
 
 .wb-dolphin-brand img {
     width: 120px;
@@ -95,10 +100,16 @@ header.wb-header {
 }
 /* Headline section style */
 .wb-hd-contents {
-    font-size: 22px;
+    font-size: 18px;
     font-family: 'Lato', sans-serif;
-    font-weight: 900;
+    font-weight: bold;
     color: #166D8F;
     text-align: center;
-
+}
+.wb-hd-pagraphs p {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #3a3a3a;
+    text-align: center
 }
