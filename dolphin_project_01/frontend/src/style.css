@@ -27,15 +27,12 @@ header.wb-header {
 }
 
 .wb-header.scrolled {
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(211, 206, 200);
     top: -15px;
-    transition: background-color 0.3s ease
-}
-.wb-header:hover {
-    background-color: #fcfeff8e;
-    transition: all 0.3s ease-in-out;
+    transition: background-color 0.3s ease;
     box-shadow: 2px 2px 2.5px 0.5px #dadada60;
 }
+
 
 .wb-dolphin-brand img {
     width: 120px;
