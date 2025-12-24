@@ -206,4 +206,59 @@ header.wb-header {
     background-color: #f5f5f5;
     width: 35em;
 }
-
+/* GOOGLE MAP STYLE */
+.wb-google-map-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 5em 18em;
+    margin: 3em 36em;
+}
+.wb-location-map h1 {
+    padding: 20px;
+    font-family: 'Funnel Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #a1a4a5
+}
+.google-map {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2.5px 0.5px #dadada60;
+}
+.google-map:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    width: 1200px;
+}
+/* FOOTER STYLE */
+.wb-footer {
+    background-color: #140F60;
+    padding: 3em 1em;
+    margin-top: 5em;
+}
+.wb-footer-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+.wb-footer-contents a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.wb-footer-contents a:hover {
+    color: #2ba4d4;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 8s ease-out;
+    text-decoration: underline;
+}
