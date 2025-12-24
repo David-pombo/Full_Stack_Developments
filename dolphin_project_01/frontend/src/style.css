@@ -162,10 +162,18 @@ header.wb-header {
     gap: 8px;
     background-color: #9fd685;
 }
+.card-picture {
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+}
 .grid-card-2 {
     grid-column: span 3 / span 3;
-    width: 45em;
-    height: 10em;
+    width: 40em;
+    height: 14em;
 }
 .grid-card-3 {
     grid-column: span 3 / span 3;
