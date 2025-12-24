@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #D8D4CC;
+}
+header.wb-header {
+    padding: 1em;
+    margin: 1em 20em;
+    z-index: 870;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.wb-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: #f3f0ec4f;*/
+    border-radius: 15px;
+    transition: background-color 0.8s ease-in-out;
+}
+
+.wb-header.scrolled {
+    background-color: rgb(211, 206, 200);
+    top: -15px;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 2.5px 0.5px #dadada60;
+}
+
+
+.wb-dolphin-brand img {
+    width: 120px;
+    height: 40px;
+    display: flex;
+}
+.wb-navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.wb-navbar-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.wb-navbar-links ul li a {
+    text-decoration: none;
+    color: #414141;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.wb-subscribe-spaces {
+    padding: 0em 1em;
+    gap: 3em;
+}
+.wb-subscribe-spaces {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.wb-subscribe-spaces a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #140F60;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.wb-btn-subscribe {
+    padding: 10px 20px;
+    border: 1.5px solid #140F60;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.wb-navbar-links a:hover{
+    color: #2ba4d4;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 8s ease-out;
+    text-decoration: underline;
+}
+.wb-subscribe-spaces a:hover{
+    color: #fcfeff;
+    font-weight: 600;
+    font-size: 15px;     
+}
+.wb-btn-subscribe:hover {
+    color: white;
+    background-color: #166D8F;
+    
+    font-weight: 600;
+    font-size: 15px; 
+    border: none;    
+}
+.wb-dolphin-brand img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+/* Headline section style */
+.wb-hd-contents {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #166D8F;
+    text-align: center;
+}
+.wb-hd-pagraphs p {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #3a3a3a;
+    text-align: center;
+    padding: 1em 38em;
+}
+.wb-hd-media-networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 1em 1em;
+}
+.wb-hd-media-networks a {
+    text-decoration: none;
+
+}
+.wb-hd-media-networks a:hover {
+    transform: scale(2.1);
+    transition: all 0.2s ease-in-out;
+    background-color: #cbcdce3a;
+}
+.wb-headlines-containers {
+    margin: 10em 3em;
+    padding: 1em 1em;
+}
+.wb-headlines-containers {
+    bottom: 3em 1em;
+}
+
+
+/* GRID CARDS LAYOUT STYLE */
+.wb-grid-cards {
+    display: flex;
+    justify-content: center;
+    padding: 1em 32em;
+    margin: 3em;
+}
+
+.wb-parent-grid-layout {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* crazy grid layout, I can't understand how it works */
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+[class^="grid-card-"] {
+    border-radius: 15px;
+    border: 2px solid rgba(116, 116, 116, 0.249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13em;
+}
+
+.grid-card-1 {
+    grid-area: 1 / 1;
+    background-color: #a1a1a1;
+    width: 14em;
+}
+
+.grid-card-2 {
+    grid-area: 1 / 2 / 1 / 5;
+    background-color: #b4b4b4;
+    width: 35em;
+}
+
+.grid-card-3 {
+    grid-area: 2 / 1 / 2 / 4;
+    background-color: #c7c7c7;
+    width: 35em;
+}
+
+.grid-card-4 {
+    grid-area: 2 / 3 / 2 / 5;
+    background-color: #d9d9d9;
+    width: 14em;
+}
+
+.grid-card-5 {
+    grid-area: 3 / 1;
+    background-color: #e2e2e2;
+    width: 14em;
+}
+
+.grid-card-6 {
+    grid-area: 3 / 2 / 3 / 5;
+    background-color: #f5f5f5;
+    width: 35em;
+}
+/* GOOGLE MAP STYLE */
+.wb-google-map-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 5em 18em;
+    margin: 3em 36em;
+}
+.wb-location-map h1 {
+    padding: 8px;
+    font-family: 'Funnel Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #a1a4a5
+}
+.wb-location-map h1 {
+    margin: 2px 2px;
+}
+.google-map {
+    width: 800px;
+    height: 400px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2.5px 0.5px #dadada60;
+}
+.google-map:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    width: 1200px;
+}
+/* FOOTER STYLE */
+.wb-footer {
+    background-color: #1a1a1a;
+    padding: 3em 1em;
+    margin-top: 5em;
+}
+.wb-footer-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+.wb-footer-contents a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.wb-footer-contents a:hover {
+    color: #2ba4d4;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 8s ease-out;
+    text-decoration: underline;
+}
+.wb-footer-contents p {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.wb-footer-contents ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
